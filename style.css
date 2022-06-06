@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Radio+Canada&family=Roboto&family=Roboto+Condensed&family=Rubik&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+body {
+  box-sizing: border-box;
+  color: #494c5f;
+  /* background-color:#6d708d ; */
+}
+
+.heading-primary {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.plan-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.plan-section .plan {
+  width: 300px;
+  height: 390px;
+  text-align: center;
+  padding: 30px 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0.6rem 1.6rem #b3b5c6;
+
+}
+
+.plan-section .plan .plan-price {
+  font-size: 4rem;
+}
+
+.plan-section .plan .dollar {
+  font-size: 2rem;
+  font-weight: 400;
+  vertical-align: middle;
+
+}
+
+.plan-section .plan .plan-features .plan-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #b3b5c6;
+}
+
+.plan-section .plan .btn {
+  display: block;
+  background-color: #696fdd;
+  padding: 10px;
+  margin-top: 10px;
+  color: #f6f6fe;
+  border-radius: 5px;
+}
+
+.plan-section .plan .btn:hover {
+  background-color: #f6f6fe;
+  color: #494c5f;
+  border: 1px solid #696fdd;
+  font-weight: 900;
+}
+
+.plan-section .plan .btn-blue {
+  background-color: #f6f6fe;
+  color: #696fdd;
+}
+
+.plan-section .plan .btn-blue:hover {
+  background-color: #696fdd;
+  color: #f6f6fe;
+  border: 1px solid #f6f6fe;
+}
+
+
+
+
+.plan-section .basic {
+  background-color: #f6f6f6;
+}
+
+.plan-section .pro {
+  background-color: #f6f6f6;
+  height: 660px;
+}
+
+.plan-section .master {
+  background-color: #f6f6f6;
+}
